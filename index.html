@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            white: '#ffffff',
+            lightgray: '#d6e2f0',
+            grayishblue: '#7b879d',
+            darkblue: '#1f3251',
+          },
+          fontFamily: {
+            Outfit: ['Outfit', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="grid content-center justify-items-center h-screen bg-lightgray font-Outfit">
+  <div class="bg-white grid items-center w-[300px] h-[500px] mx-auto shadow-xl rounded-md overflow-hidden p-3">
+    <img src="images/image-qr-code.png" alt="image of qr-code" class="rounded-lg" />
+      <h4 class="text-lg font-bold text-black pt-4 text-center">Improve your front-end <br /> skills by building projects</h4>
+      <p class="text-grayishblue py-4 text-center">
+        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      </p>
+
+  </div>
+  <div class="attribution relative -bottom-20">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Beautifulvoice-dev</a>.
+  </div> 
+</body>
+
+</html>
